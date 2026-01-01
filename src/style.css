@@ -1,3 +1,27 @@
+/* LinkedIn Newsletter Button */
+.libutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  width: 200px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #0A66C2;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 24px 0;
+  transition: background 0.2s;
+}
+.libutton:hover {
+  background-color: #004182;
+  color: #fff !important;
+}
 
 :root {
   /* Colors */
